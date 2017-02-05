@@ -1,0 +1,21 @@
+{
+  "name": "router angular with laravel",
+  "authors": [
+    "Mr.Steven <vanhungbkcbg1@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#^1.6.1"
+  }
+}
