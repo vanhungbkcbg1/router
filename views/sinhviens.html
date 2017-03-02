@@ -1,0 +1,25 @@
+<div >
+
+    <h2>Sinhvien data</h2>
+    <table class="table table-striped" >
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Email</th>
+            <th>Function</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="x in sinhviens">
+            <td>{{x.id }}</td>
+            <td>{{ x.email }}</td>
+            <td>
+                <a class="btn btn-default" href="#sinhviens/{{x.id}}">Edit</a>
+                <button class="btn btn-danger">Delete</button>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<!--{{message}}-->
