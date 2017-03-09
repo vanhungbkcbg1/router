@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Sinhvien management</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
     <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular-route.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.16/angular-resource.min.js"></script>
@@ -10,12 +11,17 @@
     <script src="js/controllers/sinhvien.js"></script>
     <script src="js/controllers/sinhvienDetail.js"></script>
     <script src="js/services/sinhvien.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
 </head>
 <body ng-app="mainApp">
 
 
 <a href="#sinhviens">Red</a>
 <a href="#blue">Blue</a>
+
+
 
 <div ng-view></div>
 </body>

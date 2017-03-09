@@ -21,5 +21,13 @@ mainApp.controller('sinhvienController',['sinhvienservice','$scope',function(sin
         });
     };
 
+    $scope.custom={
+        name:'vanhung',
+        age:28
+    };
+    //
     $scope.getAll();
+    //
+    //
+    console.log('run');
 }]);

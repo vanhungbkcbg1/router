@@ -20,3 +20,20 @@ mainApp.config(['$routeProvider', function ($routeProvider) {
         redirectTo: '/blue'
     });
 }]);
+
+
+mainApp.directive('myCustomer', function () {
+
+    return {
+
+        template:'name is {{custom.name}} and age is {{custom.age}}'
+    }
+});
+
+mainApp.directive('userFile', function () {
+
+    return {
+        restrict:'E',
+        templateUrl:'views/directive_template.html'
+    }
+});
